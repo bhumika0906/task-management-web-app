@@ -1,0 +1,161 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Poppins',sans-serif;
+  background:#f5f7fb;
+}
+
+/* LOGIN & REGISTER */
+
+.login-container{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#f5f7fb;
+}
+
+.login-box{
+  background:#fff;
+  width:400px;
+  padding:40px;
+  border-radius:20px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+.login-box h2{
+  text-align:center;
+  margin-bottom:25px;
+  color:#333;
+}
+
+.login-box input{
+  width:100%;
+  padding:14px;
+  border:1px solid #ddd;
+  border-radius:10px;
+  margin-bottom:15px;
+}
+
+.login-box button{
+  width:100%;
+  padding:14px;
+  border:none;
+  border-radius:10px;
+  background:#6C63FF;
+  color:white;
+  font-weight:600;
+  cursor:pointer;
+}
+
+.login-box button:hover{
+  background:#5a52e0;
+}
+
+/* DASHBOARD */
+
+.dashboard{
+  min-height:100vh;
+  padding:30px;
+}
+
+.dashboard-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:30px;
+}
+
+.dashboard-header h1{
+  font-size:32px;
+}
+
+.logout-btn{
+  background:#ef4444;
+  color:white;
+  border:none;
+  padding:12px 20px;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+.stats{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:20px;
+  margin-bottom:30px;
+}
+
+.stat-card{
+  background:white;
+  padding:20px;
+  border-radius:15px;
+  box-shadow:0 4px 12px rgba(0,0,0,.05);
+}
+
+.stat-card h2{
+  color:#6C63FF;
+  margin-bottom:10px;
+}
+
+.task-form{
+  background:white;
+  padding:20px;
+  border-radius:15px;
+  margin-bottom:25px;
+}
+
+.task-form input,
+.task-form textarea{
+  width:100%;
+  padding:12px;
+  margin-bottom:15px;
+  border:1px solid #ddd;
+  border-radius:10px;
+}
+
+.task-form button{
+  background:#6C63FF;
+  color:white;
+  border:none;
+  padding:12px 18px;
+  border-radius:10px;
+}
+
+.task-card{
+  background:white;
+  padding:20px;
+  border-radius:15px;
+  margin-bottom:20px;
+  box-shadow:0 4px 12px rgba(0,0,0,.05);
+}
+
+.task-card h3{
+  margin-bottom:10px;
+}
+
+.task-card p{
+  margin-bottom:10px;
+}
+
+.task-card button{
+  margin-right:10px;
+  padding:10px 15px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+.task-card button:first-of-type{
+  background:#ef4444;
+  color:white;
+}
+
+.task-card button:last-of-type{
+  background:#22c55e;
+  color:white;
+}
